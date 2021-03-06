@@ -25,7 +25,7 @@ import streamlit as st
 
 date = "21/02/2021"
 
-df_data = pd.ExcelFile('Terrain Cessy.xlsx').iloc[:46,:]
+df_data = pd.read_excel('Terrain Cessy.xlsx',sheet_name='PdG').iloc[:46,:]
 # # Find Lon / Lat of cities
 # lon = []
 # lat = []
