@@ -20,7 +20,6 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import plotly.graph_objects as go
 import altair as alt
 import streamlit as st
-import xlrd
 
 # os.chdir('E:\Workarea\Python\Webcrawling')
 
