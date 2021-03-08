@@ -26,7 +26,7 @@ import streamlit as st
 date = "21/02/2021"
 
 # df_data = pd.read_excel('Terrain Cessy.xlsx', sheet_name='PdG').iloc[:46,:]
-df_data = pd.read_excel('Terrain Cessy.xlsx', sheet_name='PdG', engine='openpyxl')
+df_data = pd.read_excel('Terrain Cessy.xlsx', sheet_name='PdG', engine='openpyxl').iloc[:46,:]
 # wb = load_workbook('Terrain Cessy.xlsx')
 # ws = wb['PdG']
 # df_data = pd.DataFrame(ws.values).iloc[:46,:]
