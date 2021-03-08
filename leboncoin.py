@@ -169,7 +169,7 @@ st.write('')
 # Get longitude and latitude of countries
 lon = df_data['longitude']
 lat = df_data['latitude']
-df_map_data = pd.DataFrame({'lat': lat, 'lon': lon})
+df_map_data = pd.DataFrame({'lat': lat, 'lon': lon}).to_numeric()
 st.map(df_map_data, zoom=11, use_container_width=True, )
 st.write('')
 
