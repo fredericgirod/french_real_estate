@@ -20,16 +20,16 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import plotly.graph_objects as go
 import altair as alt
 import streamlit as st
-import openpyxl
+# import openpyxl
 
 # os.chdir('E:\Workarea\Python\Webcrawling')
 
 date = "21/02/2021"
 
-# df_data = pd.read_excel('Terrain Cessy.xlsx',sheet_name='PdG').iloc[:46,:]
-wb = load_workbook('Terrain Cessy.xlsx')
-ws = wb['PdG']
-df_data = pd.DataFrame(ws.values).iloc[:46,:]
+df_data = pd.read_excel('Terrain Cessy.xlsx',sheet_name='PdG').iloc[:46,:]
+# wb = load_workbook('Terrain Cessy.xlsx')
+# ws = wb['PdG']
+# df_data = pd.DataFrame(ws.values).iloc[:46,:]
 # # Find Lon / Lat of cities
 # lon = []
 # lat = []
